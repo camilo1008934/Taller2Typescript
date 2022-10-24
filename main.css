@@ -3,6 +3,10 @@
     font-weight: bold;
 }
 
+img {
+    border-radius: 2%;
+}
+
 .name-btn {
     border: none;
     background-color: inherit;

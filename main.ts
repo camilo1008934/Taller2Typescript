@@ -7,6 +7,8 @@ const serieImage: HTMLElement = document.getElementById('serieImage')!;
 const serieTitle: HTMLElement = document.getElementById('serieTitle')!;
 const serieDescription: HTMLElement = document.getElementById('serieDescription')!;
 const serieUrl: HTMLElement = document.getElementById('serieUrl')!;
+const serieDefault: Serie = series[0];
+applySerieFilter(serieDefault);
 
 renderSeriesInTable(series);
 averageSeasons(series);

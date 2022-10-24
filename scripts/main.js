@@ -5,6 +5,8 @@ var serieImage = document.getElementById('serieImage');
 var serieTitle = document.getElementById('serieTitle');
 var serieDescription = document.getElementById('serieDescription');
 var serieUrl = document.getElementById('serieUrl');
+var serieDefault = series[0];
+applySerieFilter(serieDefault);
 renderSeriesInTable(series);
 averageSeasons(series);
 function renderSeriesInTable(series) {
